@@ -33,21 +33,21 @@ a:hover{
 
 /* main body styling start */
 .file-container{
-    margin: 10px 40px;
+    margin: 10px ;
     padding: 20px;
     background-color: #bd847852;
     border-radius: 30px;
     display: flex;
     flex-direction: column;
     text-align: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 h2{
     font-size: .9em;
     /* color: beige; */
     border-radius: 10px;
     padding: 10px;
-    margin: 0px 150px;
+    margin: 0px 150px 20px;
     background-color: #350d05;
 }
 .files{
@@ -55,6 +55,20 @@ h2{
     padding: 20px;
     border: 2px solid #350d05;
     border-radius: 20px;
+}
+.audio-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: #350d054f;
+    border-radius: 20px;
+    border:2px solid #350d05;
+}
+audio{
+    width: 100%;
 }
 /* footer styling */
 .footer,.header{
