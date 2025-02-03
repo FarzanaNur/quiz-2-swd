@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* footer styling */
+.footer{
+    background-color: #350d05;
+    text-align: center;
+    padding: 20px;
+}
+.footer-desc{
+    color: blanchedalmond;
+}
+.author-desc{
+    text-shadow: 1px 0px beige;
+}
+.footer-date{
+    font-size: 1.4em;
+}
