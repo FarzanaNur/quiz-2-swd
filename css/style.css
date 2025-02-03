@@ -2,13 +2,41 @@
     margin: 0;
     padding: 0;
 }
+/* header styling */
+.header{
+    margin-bottom: 20px;
+}
+.main-title{
+    font-size: 1.5em;
+    text-transform: capitalize;
+}
+/* nav */
+.nav-sections{
+    justify-content: center;
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+nav li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: antiquewhite;
+}
+nav li a:hover{
+    color: rgb(219, 161, 86);
+}
 /* footer styling */
-.footer{
+.footer,.header{
     background-color: #350d05;
     text-align: center;
     padding: 20px;
 }
-.footer-desc{
+.footer-desc,.main-title{
     color: blanchedalmond;
 }
 .author-desc{
