@@ -39,7 +39,6 @@ a:hover{
     display: flex;
     flex-direction: column;
     text-align: center;
-    justify-content: space-between;
 }
 h2{
     font-size: .9em;
@@ -50,6 +49,7 @@ h2{
     background-color: #350d05;
 }
 .files{
+    /* justify-content: space-between; */
     margin: 20px 0px;
     padding: 20px;
     border: 2px solid #350d05;
@@ -61,8 +61,6 @@ h2{
     grid-template-columns: repeat(3,1fr);
     gap: 30px;
     padding: 20px;
-    justify-content: center;
-    align-items: center;
     background-color: #350d054f;
     border-radius: 20px;
     border:2px solid #350d05;
