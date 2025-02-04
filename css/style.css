@@ -70,9 +70,9 @@ h2{
 audio{
     width: 100%;
 }
-.video-container{
+/* .video-container{
 
-}
+} */
 video{  
     height: 180px;
     width: 300px;
@@ -91,4 +91,28 @@ video{
 }
 .footer-date{
     font-size: 1.4em;
+}
+
+/* responsive small */
+@media screen and (max-width:576px){
+    .file-container{
+        flex-direction: column-reverse;
+    }
+    h2{
+        margin: 20px 0px;
+    }
+    .audio-container{
+        gap: 10px;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .video-container{
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        grid-template-columns: repeat(1,1fr);
+    }
+    video{
+        height: 250px;
+        width: 100%;
+    }
 }
