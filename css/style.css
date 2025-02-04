@@ -96,6 +96,7 @@ video{
 /* responsive small */
 @media screen and (max-width:576px){
     .file-container{
+        margin: 0px;
         flex-direction: column-reverse;
     }
     h2{
@@ -112,7 +113,26 @@ video{
         grid-template-columns: repeat(1,1fr);
     }
     video{
-        height: 250px;
+        height: auto;
+        width: 100%;
+    }
+
+
+}
+
+/* responsive medium */
+@media screen and (max-width:900px) and (min-width:576px){
+    h2{
+        margin: 20px 0px;
+    }
+    .audio-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .video-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+    video{
+        height: auto;
         width: 100%;
     }
 }
