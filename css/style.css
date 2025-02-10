@@ -32,6 +32,8 @@ a{
     color: antiquewhite;
 }
 a:hover{
+    cursor:grab;
+    /* cursor: zoom-in; */
     color: rgb(219, 161, 86);
 }
 
